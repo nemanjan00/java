@@ -1,3 +1,3 @@
 # java
 
-Java boilplate ready for Vim. 
+Java boilplate ready for Vim with livereload. 
