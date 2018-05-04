@@ -77,9 +77,11 @@ class ServerThread implements Runnable {
 
 			switch(requestParams[0]){
 				case("GET"): 
+					String response = "<h1>title<h1>";
+
 					out.println("HTTP/1.1 200 OK");
-					out.println("Content-Length: 4\n");
-					out.println("test");
+					out.println("Content-Length: " + response.length() + "\n");
+					out.println(response);
 
 					break;
 				default:
